@@ -16,12 +16,18 @@ li {
 h2 {
   font-size: 36px;
 }
+img{
+  display: block;
+}
 .container {
-  width: 1200px;
+  width: 1170px;
   margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
-  padding: 94px 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .logo-menu {
   font-family: "Raleway", sans-serif;
@@ -36,14 +42,17 @@ h2 {
 }
 .menu {
   height: 80px;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .menu-links {
   display: flex;
   align-items: center;
+  width: 492px;
+  padding-right: 345px;
 }
 .menu-link {
   color: #212121;
@@ -59,7 +68,8 @@ h2 {
 .menu-contacts {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 321px;
   gap: 50px;
 }
 .menu-contact {
@@ -80,10 +90,14 @@ h2 {
   border-bottom: 1px solid #ececec;
 }
 .main {
-  background-color: #2f303a;
+  background-color: #2f303a66;
+  background-image: url("main.img");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .main-text {
   color: white;
@@ -92,9 +106,10 @@ h2 {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 }
 .main-button {
+  font-family: "Roboto", sans-serif;
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -107,9 +122,29 @@ h2 {
   letter-spacing: 0.06em;
   cursor: pointer;
   margin-top: 30px;
-  margin-bottom: 200px;
+  /* margin: 30px 50% 0px 50%; */
+  /* margin-bottom: 200px; */
+  position: absolute;
+
+  left: 50%;
+   transform: translate(-50%);
+   
 }
 .list {
+  height: 101px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item {
+  width: 270px;
+  /* padding-right: 30px; */
+  /* display: inline-block; */
+}
+/* .list-item:last-child {
+  padding-right: 0px;
+} */
+/* .list {
   height: 101px;
   list-style-type: none;
 }
@@ -120,7 +155,7 @@ h2 {
 }
 .list-item:last-child {
   padding-right: 0px;
-}
+} */
 .list-headline {
   font-size: 14px;
 }
@@ -135,29 +170,33 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  padding: 0;
-  margin-bottom: 94px;
+  padding-top: 0;
 }
-.what-we-do-picture {
+.what-we-do-pictures {
+  list-style-type: none;
+  display:flex;
+  justify-content: space-between;
+  /* display: inline-block */
   padding-top: 50px;
-  padding-right: 30px;
+  /* padding-right: 30px; */
 }
-.what-we-do-picture:last-child {
+/* .what-we-do-picture:last-child {
   padding-right: 0px;
-}
+} */
 .our-team {
-  width: unset;
+  /* width: unset; */
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   background-color: #f5f4fa;
-  margin-top: 94px;
+  /* margin-top: 94px; */
+  padding-top: 94px;
 }
 .employees {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
   margin: 50px auto auto auto;
+  padding-top: 0;
 }
 .employee {
   font-weight: 500;
@@ -166,14 +205,34 @@ h2 {
   background-color: white;
   width: 270px;
   height: 368px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.2);
 }
 .employee > h3 {
   margin-top: 30px;
+  font-size: 16px;
 }
 .profession {
   color: #757575;
   font-weight: normal;
   margin-top: 10px;
+}
+.our-clients {
+  text-align: center;
+  /* NOTE: USTAWIĆ TEXT */
+}
+.client-list {
+  padding-top: 50px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.client {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 .footer {
   width: unset;
