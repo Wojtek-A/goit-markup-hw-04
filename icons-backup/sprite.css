@@ -3,84 +3,84 @@
   background-repeat: no-repeat;
   background-image: url(sprite.svg);
 }
-.antena {
-  width: 30px;
+.linkedin {
+  width: 32px;
   height: 32px;
   background-position: 0 0;
 }
-.astronaut {
-  width: 32px;
+.facebook {
+  width: 18px;
   height: 32px;
   background-position: 0 -32px;
 }
-.Client1 {
-  width: 27px;
+.twitter {
+  width: 36px;
   height: 32px;
   background-position: 0 -64px;
-}
-.Client2 {
-  width: 24px;
-  height: 32px;
-  background-position: 0 -96px;
-}
-.Client3 {
-  width: 34px;
-  height: 32px;
-  background-position: 0 -128px;
-}
-.Client4 {
-  width: 65px;
-  height: 32px;
-  background-position: 0 -160px;
-}
-.Client5 {
-  width: 43px;
-  height: 32px;
-  background-position: 0 -192px;
-}
-.Client6 {
-  width: 67px;
-  height: 32px;
-  background-position: 0 -224px;
-}
-.clock {
-  width: 32px;
-  height: 32px;
-  background-position: 0 -256px;
-}
-.diagram {
-  width: 32px;
-  height: 32px;
-  background-position: -32px -256px;
-}
-.envelope {
-  width: 43px;
-  height: 32px;
-  background-position: 0 -288px;
-}
-.facebook {
-  width: 32px;
-  height: 32px;
-  background-position: 0 -320px;
 }
 .instagram {
   width: 32px;
   height: 32px;
-  background-position: -32px -320px;
+  background-position: 0 -96px;
 }
-.linkedin {
+.antena {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -128px;
+}
+.astronaut {
   width: 32px;
   height: 32px;
+  background-position: 0 -160px;
+}
+.Client1 {
+  width: 27px;
+  height: 32px;
+  background-position: 0 -192px;
+}
+.Client2 {
+  width: 24px;
+  height: 32px;
+  background-position: 0 -224px;
+}
+.Client3 {
+  width: 34px;
+  height: 32px;
+  background-position: 0 -256px;
+}
+.Client4 {
+  width: 65px;
+  height: 32px;
+  background-position: 0 -288px;
+}
+.Client5 {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -320px;
+}
+.Client6 {
+  width: 67px;
+  height: 32px;
   background-position: 0 -352px;
+}
+.clock {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -384px;
+}
+.diagram {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -384px;
+}
+.envelope {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -416px;
 }
 .smartphone {
   width: 20px;
   height: 32px;
-  background-position: -32px -352px;
-}
-.twitter {
-  width: 32px;
-  height: 32px;
-  background-position: 0 -384px;
+  background-position: 0 -448px;
 }
 
